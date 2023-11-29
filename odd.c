@@ -8,10 +8,10 @@ int main (int argv, char *argc[]){
         return 1;
     }
 
-    int N = atoi(argv[1]);
+    int N = atoi(argc[1]);
 
     for(int i = 0; i <= N; i++){
-        if(i % 2!== 0){
+        if(i % 2 != 0){
             printf("%d\n", i);
         }
     }
