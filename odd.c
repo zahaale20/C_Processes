@@ -10,7 +10,7 @@ int main (int argv, char *argc[]){
 
     int N = atoi(argc[1]);
 
-    for(int i = 0; i <= N; i++){
+    for(int i = 1; i <= N; i++){
         if(i % 2 != 0){
             printf("%d\n", i);
         }
@@ -18,3 +18,19 @@ int main (int argv, char *argc[]){
     
     return 0;
 }
+
+// For testing task 4:
+
+/*
+int main (void){
+    int N = 1000;
+
+    for(int i = 1; i <= N; i++){
+        if(i % 2 != 0){
+            printf("%d\n", i);
+        }
+    }
+    
+    return 0;
+}
+*/

@@ -28,7 +28,7 @@ void limit_fork(rlim_t max_procs)
 
 int main (int argv, char *argc[]){
     limit_fork(128);
-    // Error handling for number of arguments
+    // error handling for number of arguments
     if(argv != 2){
         perror("Error: incorrect argument usage. Ex: ./f_test <value>");
         return 1;
