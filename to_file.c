@@ -6,7 +6,7 @@
 int main(int argc, char *argv[]) {
     // error handling for arguments
     if (argc != 3) {
-        perror( "Usage: ./to_file <process> <file>\n");
+        perror( "Error: Incorrect Argument Usage. Proper Usage: ./to_file <process> <file>\n");
         exit(EXIT_FAILURE);
     }
 

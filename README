@@ -1,0 +1,22 @@
+Alex Zaharia
+CSC357
+Lab 5: Processes
+
+To Run Task 1:
+    Syntax: ./f_test <value>
+    Ex:     ./f_test 1000
+
+
+Task 2: 
+    See odd.c and even.c
+
+
+To Run Task 3:
+    Syntax: ./fe_test <value>
+    Ex:     ./fe_test 1000
+
+
+Task 4: 
+    Syntax: ./to_file <program> <file>
+    Ex: ./to_file ./odd output.txt
+    NOTE: if using odd.c or even.c files for task four, make sure to replace uncommented code with commented code for main function.

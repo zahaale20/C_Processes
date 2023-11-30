@@ -6,7 +6,7 @@
 
 int main(int argc, char *argv[]) {
     if (argc != 2) {
-        fprintf(stderr, "Usage: %s <N>\n", argv[0]);
+        perror("Error: Incorrect Argument Usage. Proper usage: ./fe_test <value>");
         return 1;
     }
 
