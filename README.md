@@ -1,4 +1,6 @@
-The "C_Process_Management_and_Redirection" GitHub repository showcases a project focused on understanding and implementing process control in C, using system calls like fork, exec, and file redirection techniques. This project consists of four tasks, each designed to enhance knowledge of process creation, execution, and output management in Unix-based systems.
+# C_Process_Management_and_Redirection
+
+This GitHub repository showcases a project focused on understanding and implementing process control in C, using system calls like fork, exec, and file redirection techniques. This project consists of four tasks, each designed to enhance knowledge of process creation, execution, and output management in Unix-based systems.
 
 ## Project Overview and Key Functionalities
 
